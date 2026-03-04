@@ -11,10 +11,14 @@ class _MyWidgetState extends State<MyWidget> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(appBar: AppBar(
-      title: Text("App bar",style: TextStyle(color: Colors.amber),),
+      title: Text("App bar",style: TextStyle(fontStyle:FontStyle.italic, color:Colors.amber)),
     ),
-    body: FloatingActionButton(onPressed: (){},
-    child: Text("Login"),
+    body: SizedBox(
+      width: 100,
+      height:100,
+      child: FloatingActionButton(onPressed: (){},
+      child: Text("Login"),
+      ),
     ),
     );
   }
