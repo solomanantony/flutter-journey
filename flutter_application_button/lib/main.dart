@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_application_button/clippathex.dart';
 //import 'package:flutter_application_button/datepicker.dart';
-import 'package:flutter_application_button/timepicker.dart';
+//import 'package:flutter_application_button/timepicker.dart';
 //import 'package:flutter_application_button/drawerlist.dart';
 //import 'package:flutter_application_button/dropdown.dart';
 //import 'package:flutter_application_button/task1.dart';
@@ -19,7 +20,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: Time()//Date()//DtawerMenu()//Dropdown()//Task1()//MyWidget()//StackPage(),
+      home: Clippathex()//Time()//Date()//DtawerMenu()//Dropdown()//Task1()//MyWidget()//StackPage(),
       
     );
   }
